@@ -2,7 +2,7 @@
   "name": "ui",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "modules/shared/ui/src",
-  "prefix": "mls",
+  "prefix": "",
   "projectType": "library",
   "tags": [],
   "targets": {

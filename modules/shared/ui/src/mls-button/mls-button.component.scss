@@ -1,22 +1,35 @@
-.outer-border {
+button,
+div {
+  border-radius: 4px; 
+}
+
+button {
   width: 120px; 
   height: 45px; 
-  max-height: auto; 
-  
-  border-radius: 4px; 
 
-  display: flex; 
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center; 
+  border: 0; 
+  padding: 0; 
 
-  background: radial-gradient(
-    ellipse 100% 125% at 40% 0%,
-    rgb(var(--mls-color-accent-border-gradient-light)) 0%,
-    rgb(var(--mls-color-accent-border-gradient-dark)) 100%
-  ); 
-
+  & .outer-border {  
+    width: 100%;
+    height: 100%; 
     
+    border-radius: 4px; 
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+  
+    background: radial-gradient(
+      ellipse 100% 125% at 40% 0%,
+      rgb(var(--mls-color-accent-border-gradient-light)) 0%,
+      rgb(var(--mls-color-accent-border-gradient-dark)) 100%
+    ); 
+  }
+      
   & .inner-gradient {
     width: calc(100% - 2px); 
     height: calc(100% - 2px); 
@@ -30,8 +43,17 @@
     ); 
   }
 
-  span {
+  &:active .inner-gradient {
+    background: linear-gradient(
+      0deg,
+      rgb(var(--mls-color-accent-content-gradient-light)) 0%,
+      rgb(var(--mls-color-accent-content-gradient-dark)) 100%
+    ); 
+  }
+  
+  & span {
     white-space: nowrap;
     margin: 0 8px; 
-  }
+  }  
 }
+

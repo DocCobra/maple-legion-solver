@@ -62,6 +62,10 @@
         },
         "development": {
           "buildTarget": "maple-legion-solver:build:development"
+        },
+        "lan": {
+          "buildTarget": "maple-legion-solver:build:development",
+          "host": "0.0.0.0"
         }
       },
       "defaultConfiguration": "development"
