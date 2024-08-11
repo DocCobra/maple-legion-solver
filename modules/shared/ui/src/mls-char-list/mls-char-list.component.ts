@@ -6,6 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './mls-char-list.component.html',
-  styleUrl: './mls-char-list.component.css',
+  styleUrl: './mls-char-list.component.scss',
 })
 export class MlsCharListComponent {}

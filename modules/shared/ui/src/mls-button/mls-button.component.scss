@@ -1,0 +1,37 @@
+.outer-border {
+  width: 120px; 
+  height: 45px; 
+  max-height: auto; 
+  
+  border-radius: 4px; 
+
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; 
+
+  background: radial-gradient(
+    ellipse 100% 125% at 40% 0%,
+    rgb(var(--mls-color-accent-border-gradient-light)) 0%,
+    rgb(var(--mls-color-accent-border-gradient-dark)) 100%
+  ); 
+
+    
+  & .inner-gradient {
+    width: calc(100% - 2px); 
+    height: calc(100% - 2px); 
+
+    border-radius: 4px; 
+
+    background: linear-gradient(
+      0deg,
+      rgb(var(--mls-color-accent-content-gradient-dark)) 0%,
+      rgb(var(--mls-color-accent-content-gradient-light)) 100%
+    ); 
+  }
+
+  span {
+    white-space: nowrap;
+    margin: 0 8px; 
+  }
+}

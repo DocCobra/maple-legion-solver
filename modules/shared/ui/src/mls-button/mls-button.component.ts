@@ -6,6 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './mls-button.component.html',
-  styleUrl: './mls-button.component.css',
+  styleUrl: './mls-button.component.scss',
 })
 export class MlsButtonComponent {}

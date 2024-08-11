@@ -1,17 +1,11 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MlsButtonComponent, MlsCharListComponent, MlsLegionGridComponent } from '@maple-legion-solver/ui'; 
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-ui',
   standalone: true,
-  imports: [
-    CommonModule,
-    MlsLegionGridComponent,
-    MlsButtonComponent,
-    MlsCharListComponent
-  ],
+  imports: [CommonModule],
   templateUrl: './ui.component.html',
-  styleUrl: './ui.component.css',
+  styleUrl: './ui.component.scss',
 })
 export class UiComponent {}

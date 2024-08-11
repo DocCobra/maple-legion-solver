@@ -6,6 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './mls-legion-grid.component.html', 
-  styleUrl: './mls-legion-grid.component.css',
+  styleUrl: './mls-legion-grid.component.scss',
 })
 export class MlsLegionGridComponent {}

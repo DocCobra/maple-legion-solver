@@ -32,7 +32,7 @@
     "@nx/angular:application": {
       "e2eTestRunner": "none",
       "linter": "eslint",
-      "style": "css",
+      "style": "scss",
       "unitTestRunner": "none"
     },
     "@nx/angular:library": {
@@ -40,7 +40,7 @@
       "unitTestRunner": "none"
     },
     "@nx/angular:component": {
-      "style": "css"
+      "style": "scss"
     }
   },
   "defaultProject": "maple-legion-solver"
