@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'mls-legion-grid',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './legion-grid.component.html',
-  styleUrl: './legion-grid.component.css',
+  templateUrl: './mls-legion-grid.component.html', 
+  styleUrl: './mls-legion-grid.component.css',
 })
-export class LegionGridComponent {}
+export class MlsLegionGridComponent {}

@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-db',
+  selector: 'mls-button',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './db.component.html',
-  styleUrl: './db.component.css',
+  templateUrl: './mls-button.component.html',
+  styleUrl: './mls-button.component.css',
 })
-export class DbComponent {}
+export class MlsButtonComponent {}

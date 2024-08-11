@@ -7,7 +7,7 @@
   "tags": [],
   "targets": {
     "build": {
-      "executor": "@angular-devkit/build-angular:application",
+      "executor": "@nx/angular:application",
       "outputs": [
         "{options.outputPath}"
       ],
@@ -26,7 +26,6 @@
           }
         ],
         "styles": [
-          "src/custom-theme.scss",
           "./src/styles.css"
         ],
         "scripts": []
@@ -56,7 +55,7 @@
       "defaultConfiguration": "production"
     },
     "serve": {
-      "executor": "@angular-devkit/build-angular:dev-server",
+      "executor": "@nx/angular:dev-server",
       "configurations": {
         "production": {
           "buildTarget": "maple-legion-solver:build:production"
