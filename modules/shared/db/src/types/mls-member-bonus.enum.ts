@@ -1,0 +1,22 @@
+export enum MlsMemberBonus {
+  STR  = 'str ',
+  DEX = 'dex',
+  INT = 'int',
+  LUK = 'luk',
+  MaxHP = 'maxhp',
+  MaxMP = 'maxmp',
+  CriticalRate = 'critrate',
+  CriticalDamage  = 'critdamage',
+  MultiStat = 'strdexluk',
+  BuffDuration = 'buffdur',
+  SummonDuration = 'summondur',
+  SkillCooldown = 'skillcd',
+  MesosObtained = 'meso',
+  IgnoredEnemyDefense = 'ied',
+  BossDamage = 'bossdmg',
+  EXPObtained = 'exp',
+  AbnormalStatusResistance = 'statres',
+  DamageIncreaseChanceOnAttack = 'dmgincrease',
+  RecoverPercentHPOnAttack = 'recoverhp',
+  RecoverPercentMPOnAttack = 'recovermp'
+}
