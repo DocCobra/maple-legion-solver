@@ -12,13 +12,7 @@
   "include": [],
   "references": [
     {
-      "path": "./tsconfig.editor.json"
-    },
-    {
       "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
     }
   ],
   "angularCompilerOptions": {

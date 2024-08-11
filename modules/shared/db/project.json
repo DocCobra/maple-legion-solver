@@ -1,8 +1,8 @@
 {
-  "name": "ui",
+  "name": "db",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "modules/shared/ui/src",
-  "prefix": "mls",
+  "sourceRoot": "modules/shared/db/src",
+  "prefix": "lib",
   "projectType": "library",
   "tags": [],
   "targets": {

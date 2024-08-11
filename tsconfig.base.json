@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@maple-legion-solver/db": ["modules/shared/db/src/index.ts"],
       "@maple-legion-solver/ui": ["modules/shared/ui/src/index.ts"]
     }
   },
