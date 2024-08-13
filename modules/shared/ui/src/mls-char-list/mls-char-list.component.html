@@ -1,1 +1,19 @@
 <p>legion-char-list works!</p>
+
+<mls-card></mls-card>
+
+<div>
+  <div class="toolbar"> <br> <br>
+    <mls-button>add</mls-button>
+  </div>
+
+  <div class="member-list">
+    <mls-char-list-item
+      *ngFor="let m of legionMembers"
+      [job]="m.job"
+      [jobClass]="m.jobClass"
+      [group]="m.group"
+      [memberBonus]="m.memberBonus"
+    ></mls-char-list-item>
+  </div>
+</div>
