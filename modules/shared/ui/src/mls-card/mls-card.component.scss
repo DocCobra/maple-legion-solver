@@ -12,6 +12,10 @@ div.inner-gradient {
 div.outer-border {
   z-index: 1; 
   position: relative; 
+
+  box-sizing: border-box;
+
+  border: 1px solid rgb(var(--mls-color-outline)); 
   
   display: flex;
   flex-flow: row nowrap;
@@ -37,7 +41,7 @@ div.inner-gradient {
 }
 
 div.inner-background {
-  z-index: 2; 
+  z-index: 5; 
 
   background-color: rgb(var(--mls-color-bg-primary)); 
 }

@@ -4,6 +4,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 :root {
   --mls-color-bg-primary: 47, 54, 61;
+  --mls-color-outline: 35, 40, 50; 
 
   --mls-color-accent-border-gradient-light: 232, 240, 79;
   --mls-color-accent-border-gradient-dark: 153, 178, 23;
