@@ -1,4 +1,4 @@
-export enum MlsClass {
+export enum MlsJobClass {
   Warrior = 'warrior',
   Magician = 'magician', 
   Bowman = 'bowman',

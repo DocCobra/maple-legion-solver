@@ -1,12 +1,12 @@
-export enum MlsMemberBonus {
-  STR  = 'str ',
+export enum MlsMemberBonusType {
+  STR  = 'str',
   DEX = 'dex',
   INT = 'int',
   LUK = 'luk',
   MaxHP = 'maxhp',
   MaxMP = 'maxmp',
   CriticalRate = 'critrate',
-  CriticalDamage  = 'critdamage',
+  CriticalDamage  = 'critdmg',
   MultiStat = 'strdexluk',
   BuffDuration = 'buffdur',
   SummonDuration = 'summondur',

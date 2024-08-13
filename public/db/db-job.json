@@ -1,0 +1,317 @@
+[
+  {
+    "job": "hero",
+    "jobClass": "warrior",
+    "group": "explorer",
+    "memberBonus": "str"
+  },
+  {
+    "job": "paladin",
+    "jobClass": "warrior",
+    "group": "explorer",
+    "memberBonus": "str"
+  },
+  {
+    "job": "darkknight",
+    "jobClass": "warrior",
+    "group": "explorer",
+    "memberBonus": "maxhp"
+  },
+  {
+    "job": "archmagefirepoison",
+    "jobClass": "magician",
+    "group": "explorer",
+    "memberBonus": "maxmp"
+  },
+  {
+    "job": "archmageicelightning",
+    "jobClass": "magician",
+    "group": "explorer",
+    "memberBonus": "int"
+  },
+  {
+    "job": "bishop",
+    "jobClass": "magician",
+    "group": "explorer",
+    "memberBonus": "int"
+  },
+  {
+    "job": "bowmaster",
+    "jobClass": "bowman",
+    "group": "explorer",
+    "memberBonus": "dex"
+  },
+  {
+    "job": "marksman",
+    "jobClass": "bowman",
+    "group": "explorer",
+    "memberBonus": "critrate"
+  },
+  {
+    "job": "pathfinder",
+    "jobClass": "bowman",
+    "group": "explorer",
+    "memberBonus": "dex"
+  },
+  {
+    "job": "nightlord",
+    "jobClass": "thief",
+    "group": "explorer",
+    "memberBonus": "critrate"
+  },
+  {
+    "job": "shadower",
+    "jobClass": "thief",
+    "group": "explorer",
+    "memberBonus": "luk"
+  },
+  {
+    "job": "dualblade",
+    "jobClass": "thief",
+    "group": "explorer",
+    "memberBonus": "luk"
+  },
+  {
+    "job": "buccaneer",
+    "jobClass": "pirate",
+    "group": "explorer",
+    "memberBonus": "str"
+  },
+  {
+    "job": "corsair",
+    "jobClass": "pirate",
+    "group": "explorer",
+    "memberBonus": "summondur"
+  },
+  {
+    "job": "cannoneer",
+    "jobClass": "pirate",
+    "group": "explorer",
+    "memberBonus": "str"
+  },
+  {
+    "job": "jett",
+    "jobClass": "pirate",
+    "group": "explorer",
+    "memberBonus": "critdmg"
+  },
+  
+  {
+    "job": "dawnwarrior",
+    "jobClass": "warrior",
+    "group": "cygnusknight",
+    "memberBonus": "maxhp"
+  },
+  {
+    "job": "blazewizard",
+    "jobClass": "magician",
+    "group": "cygnusknight",
+    "memberBonus": "int"
+  },
+  {
+    "job": "windarcher",
+    "jobClass": "bowman",
+    "group": "cygnusknight",
+    "memberBonus": "dex"
+  },
+  {
+    "job": "nightwalker",
+    "jobClass": "thief",
+    "group": "cygnusknight",
+    "memberBonus": "luk"
+  },
+  {
+    "job": "thunderbreaker",
+    "jobClass": "pirate",
+    "group": "cygnusknight",
+    "memberBonus": "str"
+  },
+  {
+    "job": "mihile",
+    "jobClass": "warrior",
+    "group": "cygnusknight",
+    "memberBonus": "maxhp"
+  },
+  
+  {
+    "job": "aran",
+    "jobClass": "warrior",
+    "group": "hero",
+    "memberBonus": "recoverhp"
+  },
+  {
+    "job": "evan",
+    "jobClass": "magician",
+    "group": "hero",
+    "memberBonus": "recovermp"
+  },
+  {
+    "job": "mercedes",
+    "jobClass": "bowman",
+    "group": "hero",
+    "memberBonus": "skillcd"
+  },
+  {
+    "job": "phantom",
+    "jobClass": "thief",
+    "group": "hero",
+    "memberBonus": "meso"
+  },
+  {
+    "job": "shade",
+    "jobClass": "pirate",
+    "group": "hero",
+    "memberBonus": "critdmg"
+  },
+  {
+    "job": "luminous",
+    "jobClass": "magician",
+    "group": "hero",
+    "memberBonus": "int"
+  },
+  
+  {
+    "job": "demonslayer",
+    "jobClass": "warrior",
+    "group": "resistance",
+    "memberBonus": "statres"
+  },
+  {
+    "job": "demonavenger",
+    "jobClass": "warrior",
+    "group": "resistance",
+    "memberBonus": "bossdmg"
+  },
+  {
+    "job": "blaster",
+    "jobClass": "warrior",
+    "group": "resistance",
+    "memberBonus": "ied"
+  },
+  {
+    "job": "battlemage",
+    "jobClass": "magician",
+    "group": "resistance",
+    "memberBonus": "int"
+  },
+  {
+    "job": "wildhunter",
+    "jobClass": "bowman",
+    "group": "resistance",
+    "memberBonus": "dmgincrease"
+  },
+  {
+    "job": "mechanic",
+    "jobClass": "pirate",
+    "group": "resistance",
+    "memberBonus": "buffdur"
+  },
+  {
+    "job": "xenon",
+    "jobClass": "pirate",
+    "group": "resistance",
+    "memberBonus": "strdexluk"
+  },
+  
+  {
+    "job": "hayato",
+    "jobClass": "warrior",
+    "group": "sengoku",
+    "memberBonus": "critdmg"
+  },
+  {
+    "job": "kanna",
+    "jobClass": "magician",
+    "group": "sengoku",
+    "memberBonus": "bossdmg"
+  },
+  
+  {
+    "job": "kaiser",
+    "jobClass": "warrior",
+    "group": "nova",
+    "memberBonus": "str"
+  },
+  {
+    "job": "kain",
+    "jobClass": "bowman",
+    "group": "nova",
+    "memberBonus": "dex"
+  },
+  {
+    "job": "cadena",
+    "jobClass": "thief",
+    "group": "nova",
+    "memberBonus": "luk"
+  },
+  {
+    "job": "angelicbuster",
+    "jobClass": "pirate",
+    "group": "nova",
+    "memberBonus": "dex"
+  },
+  
+  {
+    "job": "adele",
+    "jobClass": "warrior",
+    "group": "flora",
+    "memberBonus": "str"
+  },
+  {
+    "job": "illium",
+    "jobClass": "magician",
+    "group": "flora",
+    "memberBonus": "int"
+  },
+  {
+    "job": "khali",
+    "jobClass": "thief",
+    "group": "flora",
+    "memberBonus": "luk"
+  },
+  {
+    "job": "ark",
+    "jobClass": "pirate",
+    "group": "flora",
+    "memberBonus": "str"
+  },
+  
+  {
+    "job": "lara",
+    "jobClass": "magician",
+    "group": "anima",
+    "memberBonus": "int"
+  },
+  {
+    "job": "hoyoung",
+    "jobClass": "thief",
+    "group": "anima",
+    "memberBonus": "luk"
+  },
+  
+  {
+    "job": "lynn",
+    "jobClass": "magician",
+    "group": "jianghu",
+    "memberBonus": "ied"
+  },
+  {
+    "job": "moxuan",
+    "jobClass": "pirate",
+    "group": "jianghu",
+    "memberBonus": "critdmg"
+  },
+  
+  {
+    "job": "zero",
+    "jobClass": "warrior",
+    "group": "other",
+    "memberBonus": "exp"
+  },
+  {
+    "job": "kinesis",
+    "jobClass": "magician",
+    "group": "other",
+    "memberBonus": "int"
+  }
+]

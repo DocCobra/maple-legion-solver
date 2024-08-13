@@ -1,1 +1,1 @@
-export * from './lib/db/db.component';
+export * from './db/db.service'; 

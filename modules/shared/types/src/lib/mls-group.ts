@@ -1,4 +1,4 @@
-export enum MlsClassGroup {
+export enum MlsGroup {
   Explorer = 'explorer',
   CygnusKnight = 'cygnusknight', 
   Hero = 'hero',

@@ -8,7 +8,7 @@ export enum MlsJob {
   Bowmaster = 'bowmaster',
   Marksman = 'marksman',
   Pathfinder = 'pathfinder',
-  NightLord = 'nightLord',
+  NightLord = 'nightlord',
   Shadower = 'shadower',
   DualBlade = 'dualblade',
   Buccaneer = 'buccaneer',

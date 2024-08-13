@@ -8,5 +8,5 @@
     "types": []
   },
   "exclude": ["src/**/*.spec.ts", "jest.config.ts", "src/**/*.test.ts"],
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "../types/src/lib/mls-job.ts", "../types/src/lib/mls-legion-member.ts", "../types/src/lib/mls-member-bonus-type.ts", "../types/src/lib/mls-member-bonus.ts", "../types/src/lib/mls-member-tier.ts", "../types/src/lib/mls-job-class.ts", "../types/src/lib/mls-group.ts"]
 }
